@@ -1,0 +1,11 @@
+﻿  Bomb.cpp
+  Ground.cpp
+  House.cpp
+  LevelGUI.cpp
+  MyTools.cpp
+  Plane.cpp
+  SBomber.cpp
+  SBomberProject.cpp
+  Tank.cpp
+  Generating Code...
+  SBomberProject.vcxproj -> D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\01_Lesson_01\SBomberProject\Debug\SBomberProject.exe
