@@ -2,7 +2,8 @@
 #include <conio.h>
 
 #include "SBomber.h"
-#include "MyTools.h"
+//#include "MyTools.h"
+#include "ScreenSingletone.h"
 #include "FileLoggerSingletone.h"
 
 using namespace std;
@@ -23,7 +24,7 @@ int main(void)
             game.ProcessKBHit();
         }
 
-        MyTools::ClrScr();
+        ScreenSingletone::getInstance().ClrScr();
 
         game.DrawFrame();
         game.MoveObjects();

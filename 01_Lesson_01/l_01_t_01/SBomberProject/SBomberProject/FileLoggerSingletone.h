@@ -23,6 +23,7 @@ public:
 
 private:
 	FileLoggerSingletone() {};
+	~FileLoggerSingletone() {};
 	FileLoggerSingletone(const FileLoggerSingletone& obj) = delete;
 	FileLoggerSingletone& operator= (const FileLoggerSingletone& obj) = delete;
 };

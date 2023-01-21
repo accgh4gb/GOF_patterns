@@ -4,6 +4,7 @@
 
 #include "MyTools.h"
 #include "FileLoggerSingletone.h"
+#include "ScreenSingletone.h"
 #include "SBomber.h"
 #include "Bomb.h"
 #include "Ground.h"
@@ -11,7 +12,7 @@
 #include "House.h"
 
 using namespace std;
-using namespace MyTools;
+//using namespace MyTools;
 
 SBomber::SBomber()
     : exitFlag(false),
@@ -33,8 +34,8 @@ SBomber::SBomber()
 
     LevelGUI* pGUI = new LevelGUI;
     pGUI->SetParam(passedTime, fps, bombsNumber, score);
-    const uint16_t maxX = GetMaxX();
-    const uint16_t maxY = GetMaxY(); 
+    const uint16_t maxX = ScreenSingletone::getInstance().GetMaxX();
+    const uint16_t maxY = ScreenSingletone::getInstance().GetMaxY();
     const uint16_t offset = 3;
     const uint16_t width = maxX - 7;
     pGUI->SetPos(offset, offset);
@@ -325,7 +326,7 @@ void SBomber::DrawFrame()
         }
     }
 
-    GotoXY(0, 0);
+    ScreenSingletone::getInstance().GotoXY(0, 0);
     fps++;
 
     FindLevelGUI()->SetParam(passedTime, fps, bombsNumber, score);
