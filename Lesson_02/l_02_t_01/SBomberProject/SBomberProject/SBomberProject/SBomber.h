@@ -24,7 +24,7 @@ public:
     void DrawFrame();
     void MoveObjects();
     void CheckObjects();
-    void CommandExecuter();
+    void CommandExecuter(AbstractCommand* pCommand);
 
 private:
 

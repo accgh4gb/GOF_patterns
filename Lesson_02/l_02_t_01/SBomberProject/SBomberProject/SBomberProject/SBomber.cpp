@@ -12,7 +12,6 @@
 #include "House.h"
 #include "ScreenSingletone.h"
 
-
 using namespace std;
 //using namespace MyTools;
 
@@ -357,12 +356,6 @@ void SBomber::TimeFinish()
 //    }
 //}
 
-void SBomber::CommandExecuter()
-{
-    for (auto command : vecCmds)
-    {
-        command->Execute();
-        delete  command;
-        vecCmds.pop_back();
-    }
+void SBomber::CommandExecuter(AbstractCommand* pCommand) {
+    pCommand->Execute();
 }
