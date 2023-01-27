@@ -1,0 +1,28 @@
+﻿  AbstractCommand.cpp
+  SBomber.cpp
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(124,13): error C2065: 'vecCmds': undeclared identifier
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(143,13): error C2065: 'vecCmds': undeclared identifier
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(289,13): error C2065: 'vecCmds': undeclared identifier
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(362,25): error C2065: 'vecCmds': undeclared identifier
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(362,25): error C2672: 'begin': no matching overloaded function found
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1844): message : see declaration of 'std::begin'
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): message : With the following template arguments:
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): message : '_Container=unknown-type'
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(55): message : see declaration of 'std::begin'
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(362,25): error C2672: 'end': no matching overloaded function found
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1854): message : see declaration of 'std::end'
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): message : With the following template arguments:
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): message : '_Container=unknown-type'
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(60): message : see declaration of 'std::end'
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): error C3536: '<begin>$L0': cannot be used before it is initialized
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(363,5): error C3536: '<end>$L0': cannot be used before it is initialized
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(362,32): error C2100: illegal indirection
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(365,24): error C2541: 'delete': cannot delete objects that are not pointers
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_02\l_02_t_02\SBomberProject\SBomber.cpp(366,9): error C2065: 'vecCmds': undeclared identifier
+  SBomberProject.cpp
+  Tank.cpp
+  Generating Code...
