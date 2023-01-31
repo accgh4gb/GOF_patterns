@@ -1,0 +1,6 @@
+﻿  BombIterator.cpp
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_03\SBomberProject\BombIterator.cpp(3,54): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  SBomber.cpp
+  Generating Code...
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_03\SBomberProject\BombIterator.cpp(18): warning C4172: returning address of local variable or temporary: it
+  SBomberProject.vcxproj -> D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_03\x64\Debug\SBomberProject.exe
