@@ -1,0 +1,15 @@
+﻿  Bomb.cpp
+  FileLoggerSingletone.cpp
+  Ground.cpp
+  House.cpp
+  LevelGUI.cpp
+  MyTools.cpp
+  Plane.cpp
+  SBomber.cpp
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_04\l_04_t_02\SBomberProject\SBomber.cpp(29,12): warning C4101: 'dtl': unreferenced local variable
+  SBomberProject.cpp
+  ScreenSingleton.cpp
+  Tank.cpp
+  Generating Code...
+  LINK : D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_04\l_04_t_02\x64\Debug\SBomberProject.exe not found or not built by the last incremental link; performing full link
+  SBomberProject.vcxproj -> D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_04\l_04_t_02\x64\Debug\SBomberProject.exe
