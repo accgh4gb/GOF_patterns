@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="FileLoggerSingletone.cpp" />
+    <ClCompile Include="Ground.cpp" />
+    <ClCompile Include="House.cpp" />
+    <ClCompile Include="LevelGUI.cpp" />
+    <ClCompile Include="MyTools.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="SBomber.cpp" />
+    <ClCompile Include="SBomberProject.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="Visitor.cpp" />
+    <ClCompile Include="ScreenSingletone.cpp" />
+    <ClCompile Include="Mediator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bomb.h" />
+    <ClInclude Include="FileLoggerSingletone.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="DynamicObject.h" />
+    <ClInclude Include="Ground.h" />
+    <ClInclude Include="DestroyableGroundObject.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="LevelGUI.h" />
+    <ClInclude Include="MyTools.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="SBomber.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="Visitor.h" />
+    <ClInclude Include="ScreenSingletone.h" />
+    <ClInclude Include="Mediator.h" />
+  </ItemGroup>
+</Project>
