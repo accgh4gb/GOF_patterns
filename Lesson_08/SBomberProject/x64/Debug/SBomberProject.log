@@ -1,0 +1,14 @@
+﻿  Bomb.cpp
+  Ground.cpp
+  House.cpp
+  LevelGUI.cpp
+  MyTools.cpp
+  Plane.cpp
+  SBomber.cpp
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_08\SBomberProject\SBomber.cpp(376,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_08\SBomberProject\SBomber.cpp(452,50): warning C4244: 'argument': conversion from 'size_t' to 'double', possible loss of data
+D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_08\SBomberProject\SBomber.cpp(452,20): warning C4244: 'argument': conversion from 'const size_t' to 'double', possible loss of data
+  SBomberProject.cpp
+  Tank.cpp
+  Generating Code...
+  SBomberProject.vcxproj -> D:\Labs_C++\GB\06_Паттрены_проектирования_GOF\Lesson_08\x64\Debug\SBomberProject.exe
